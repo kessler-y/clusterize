@@ -4,6 +4,8 @@ clusterize
 a simple node cluster helper
 
 ```
+var clusterize = require('clusterize');
+
 clusterize(function() {
     console.log('worker');
 }, 0.5);
