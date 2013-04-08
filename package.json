@@ -1,6 +1,6 @@
 {
     "name": "clusterize",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "A simple node cluster helper",
     "main": "lib/clusterize.js"
 }
