@@ -47,9 +47,9 @@ klusterize({
 ```
 
 ### options reference:
-- *workerFn*            - required, a function to invoke on worker processes or a name of a javascript filename
+- *worker*            - required, a function to invoke on worker processes or a name of a javascript filename
 
-- *masterFn*            - optional, will be fired after forking code, can be a function or a javascript filename
+- *master*            - optional, will be fired after forking code, can be a function or a javascript filename
 
 - *reforkOnDeath*       - optional, whether to refork processes when a worker dies, defaults to true
 
